@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+ }
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/main.webp);
+    background-size: cover;
+}
+@media  screen and (min-width:820px) {
+    .banner{
+      width: 100%;
+    }
+    
+}
+
+.navbar{
+    width: 70%;
+    margin: auto;
+    padding: 45px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 130px;
+    cursor: pointer;
+}
+
+
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    display: flex;
+}
+.navbar ul li{
+    position: relative;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0 25px;
+    line-height: 60px;
+} 
+
+.navbar ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+    background-color: white;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+.navbar ul li ul a{
+    color: black;
+
+}
+.navbar ul li ul a:hover{
+    color: gray;
+}
+  .navbar ul li ul{
+    width: 200px;
+  } 
+
+  #content{
+            position:absolute;
+           top: 200px;
+           margin-left: 450px;
+        }
+        section h1{
+            font-size: 6em;
+           color: white;
+           margin-bottom: 0;
+        }
+       section h5{
+            margin-left: 100px;
+            font-size: 30px;
+            font-weight: lighter;
+            color: whitesmoke;
+            width: 50%;
+            margin-top: 20px;
+       }
+       section a {
+        border-radius: 200px;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        margin-left: 250px;
+        font-size: 25px;
+        padding: 15px;
+        
+       }
+       section a:hover{
+        color: white;
+        background-color: black;
+        border-radius: 200px;
+       }
+    
+     .container{
+        width: 90%;
+        margin:auto;
+
+     }  
+     .boxes{
+        display: flex;
+     }
+     .box1, .box2, .box3{
+        text-align:center;
+        width: 100%;
+        border: 1px solid black;
+        height: 500px;
+        margin-left: 30px;
+     }
+     .boxes p{
+        color: gray;
+     }
+     .boxes h1{
+        color: gray;
+     }
+     .boxes h2{
+        font-size: 30px
+     }
+     .box2 p{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+     }
+     .sign{
+        margin-left: 30px;
+     }
+     .sign h1{
+        font-size: 60px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+     }
+     .sign p{
+        color: gray;
+        font-size:x-large;
+        width: 50%;
+     }
+     .intro{
+        display: flex;
+        height: 500px;
+        background-image: url(../img/third.webp);
+        background-size: cover;
+        position: absolute;
+     }
+     .intro .left{
+        width: 50%;
+     }
+     .intro .right{
+        width: 50%;
+     }
+     .intro p {
+        color: white;
+     }
+     .left h5{
+        font-size: 55px;
+        width: 70%;
+        margin-top: 70px;
+     }
+     .left p{
+        margin-left: 100px;
+        font-size: 25px;
+        color:whitesmoke;
+     }
+     .right p{
+        margin-top: 90px;
+        width:85%
+     }
+     .right h4{
+        color: whitesmoke;
+        width: 85%;
+        font-size: 17px;
+     }
+     .right h2{
+        color:white;
+        font-size: xx-large;
+        margin-bottom: 0px;
+     }
+     .right h6{
+        margin-top: 0px;
+        margin-left: 120px;
+        font-size:small;
+        color: whitesmoke;
+        width: 50%;
+     }
+     .right a{
+        margin-left:70px;
+     }
+     .right .person{
+        display: flex;
+     }
+     .offer{
+        display: flex;
+        width: auto;
+     }
+     .info{
+        width: 60%;
+        text-align: center;
+     }
+    .media{
+        width: 40%;
+    }
+    .media img{
+        margin-left: 100px;
+        width:500px;
+        height: 600;
+    }
+    .info h1{
+        font-size: 65px;
+        width: 50%;
+        margin: auto;
+    }
+    .info p{
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+        color: gray;
+    }
+    .info h3{
+        font-size: 30px;
+        text-align:start;
+        margin-left: 300px;
+    }
+    .art{
+        display: flex;
+    }
+    .art1{
+        margin-left: 100px;
+        width: 60%;
+    }
+    .art1 h2{
+        font-size: 55px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .art1 p{
+        width: 75%;
+        color: gray;
+        font-size: 18px;
+    }
+    .art2{
+        width: 40%;
+        margin:auto;
+        width: 50%;
+    }
+    .art2 .poe{
+        background-color: black;
+        color: white;
+    }
+    .art2 .poe:hover{
+        background-color: white;
+        color:black;
+        border:1px solid black;
+
+    }
+    .telemundo{
+        display: flex;
+    }
+    .telemundo .A{
+        width: 50%;
+    }
+    .telemundo .B{
+        width: 50%;
+    }
+    .telemundo .A img{
+        width: 600px;
+        margin-left: 110px;
+    }
+    .telemundo .B img{
+        width: 600px;
+    }
+    .city{
+        background-image: url(../img/city.webp);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .light{
+        text-align: center;
+        height: 500px;
+        color: white;
+    }
+    .light h2{
+        font-size: 60px;
+        width: 65%;
+        margin: auto;
+        padding-top: 200px;
+    }
+    .light p{
+        font-size: 20px;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+    .light a{
+        margin:auto;
+        border-radius: 100px;
+    }
+    .light a:hover{
+        border-radius: 100px;
+    }
+    .last{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .last1{
+        margin-left:100px;
+    }
+    .last1 p{
+        width: 50%;
+        font-size: 18px;
+    }
+    .last2{
+        margin-left:-300px
+    }
+    .last2 p{
+        width: 50%;
+        font-size: 18px;
+    }
+    .last2 h3{
+        font-size: 20px;
+    }
+    .last3{
+        margin-right: 120px;
+    }
+    .last3 h3{
+        font-size: 20px;
+    }
+    .end{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
